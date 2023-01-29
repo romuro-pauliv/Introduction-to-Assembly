@@ -8,7 +8,8 @@ Both levels 4 and 5 are system independent, that is, independent of a particular
 
 Assembly language programming is referred to as low-level programming because each assembly language instruction performs a much lower-level task compared to an instruction in a high-level language. As a consequence, to perform the same task, assembly language code tends to be much larger than the equivalent high-level language code.
 
-![A user's view of a computer system](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20I%20-%20Overview/static/user's-view-of-a-computer-system.png?raw=true)
+<img src="https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20I%20-%20Overview/static/user's-view-of-a-computer-system.png?raw=true" width="50%" alt="A user's view of a computer system">
+
 
 Assembly language instructions are native to the processor used in the system. For example, a program written in the Intel assembly language cannot be executed on the PowerPC processor. Programming in the assembly language also requires knowledge about system internal details such as the processor architecture, memory organization, and so on.
 
