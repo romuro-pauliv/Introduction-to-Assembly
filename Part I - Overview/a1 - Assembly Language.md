@@ -5,7 +5,7 @@ The main objective of this chapter is to give you a brief introduction to the as
 ---
 
 - Assembly Language
-    - Introduction
+    - [Introduction](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20I%20-%20Overview/a2%20-%20Introduction.md)
     - What Is Assembly Language?
     - Advantages of High-Level Languages
     - Why Program in Assembly Languages
@@ -15,5 +15,5 @@ The main objective of this chapter is to give you a brief introduction to the as
 ---
 
 
-| < [Back to Summary](https://github.com/romuro-pauliv/Introduction-to-Assembly/tree/main) | Introduction > |
+| < [Back to Summary](https://github.com/romuro-pauliv/Introduction-to-Assembly/tree/main) | [Introduction](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20I%20-%20Overview/a2%20-%20Introduction.md) > |
 | -|-|
