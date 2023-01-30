@@ -55,3 +55,6 @@ We appreciate the readability of the assembly language instructions by looking a
 | `add marks, 10` | Integer addition | 83060F000A           |
 
 It is obvious from these examples that understanding the code of a program in the machine language is almost impossible. Since there is a one-to-one correspondence between the instructions of the assembly language and the machine language, it is fairly straightforward to translate instructions from the assembly language to the machine language. As a result, only a masochist would consider programming in a machine language. However, life was not so easy for some of the early progranmiers. When microprocessors were first introduced, some programming was in fact done in machine language!
+
+| < [Introduction](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20I%20-%20Overview/a2%20-%20Introduction.md) | [Advantages of High-Level Languages]() > |
+| -|-|

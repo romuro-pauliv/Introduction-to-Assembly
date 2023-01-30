@@ -8,7 +8,7 @@ No previous knowledge of Linux is required. The reader is introduced to Linux an
 
 - [Assembly Language](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20I%20-%20Overview/a1%20-%20Assembly%20Language.md)
     - [Introduction](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20I%20-%20Overview/a2%20-%20Introduction.md)
-    - What Is Assembly Language?
+    - [What Is Assembly Language?](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20I%20-%20Overview/a3%20-%20%20What%20Is%20Assembly%20Language.md)
     - Advantages of High-Level Languages
     - Why Program in Assembly Languages
     - Typical Applications
