@@ -1,3 +1,5 @@
+## What Is Assembly Language?
+
 Assembly language is directly influenced by the instruction set and architecture of the processor. In this repository, we focus on the assembly language for the **Intel 32-bit processors** like the Pentium. The assembly language code must be processed by a program in order to generate the machine language code. Assembler is the program that translates the assembly language code into the machine language.
 
 `NASM` (Netwide Assembler), `MASM` (Microsoft Assembler), and `TASM` (Borland Turbo Assembler) are some of the popular assemblers for the Intel processors. In this book, we use the `NASM` assembler. There are two main reasons for this selection: 
