@@ -16,7 +16,7 @@ No previous knowledge of Linux is required. The reader is introduced to Linux an
 
 ### Part II - Computer Organization
 
-- Digital Logic Circuits
+- [Digital Logic Circuits](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a1%20-%20Digital%20Logic%20Circuits.md)
     - Introduction
     - Simple Logic Gates
     - Logic Functions
