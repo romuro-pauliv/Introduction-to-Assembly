@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/github/repo-size/romuro-pauliv/Introduction-to-Assembly?style=flat-square) ![](https://img.shields.io/github/last-commit/romuro-pauliv/Introduction-to-Assembly?style=flat-square) ![](https://img.shields.io/github/license/romuro-pauliv/Introduction-to-Assembly?style=flat-square)
 
-<img align="left" src="https://github.com/romuro-pauliv/Introduction-to-Java/blob/main/static/Cay%20S.%20Horstmann%20-%20Core%20Java%20-%20Fundamentals,%20Volume%20I-Prentice%20Hall%20PTR%20(2007).png?raw=true" alt="drawing" width="300"/>
+<img align="left" src="https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/static/Slvarama%20P.%20Dandamudi%20-%20Guide%20To%20Assembly%20Language%20Programming%20In%20Linux%20-%202005%20-%20Spriger.png?raw=true" alt="drawing" width="300"/>
 
 This repository is intended to provide a path to learning the Assembly. The motivation is to provide a solid idea of the language so that the reader knows which path to take in a career as a Assembly Developer.
 
