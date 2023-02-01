@@ -1,5 +1,7 @@
 # Introduction to Assembly
 
+![](https://img.shields.io/github/repo-size/romuro-pauliv/Introduction-to-Assembly?style=flat-square) ![](https://img.shields.io/github/last-commit/romuro-pauliv/Introduction-to-Assembly?style=flat-square) ![](https://img.shields.io/github/license/romuro-pauliv/Introduction-to-Assembly?style=flat-square)
+
 The repository is targeted for software professionals who would like to move to Linux and get a comprehensive introduction to the IA-32 assembly language. It provides detailed, step-by-step instructions to install Linux as the second operating system.
 
 No previous knowledge of Linux is required. The reader is introduced to Linux and its commands. Four chapters are dedicated to Linux and NASM assembler (installation and usage). The assembly language is presented from the professional viewpoint. Since most professionals are full-time employees, the repository takes their time constraints into consideration in presenting the material.
