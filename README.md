@@ -2,7 +2,17 @@
 
 ![](https://img.shields.io/github/repo-size/romuro-pauliv/Introduction-to-Assembly?style=flat-square) ![](https://img.shields.io/github/last-commit/romuro-pauliv/Introduction-to-Assembly?style=flat-square) ![](https://img.shields.io/github/license/romuro-pauliv/Introduction-to-Assembly?style=flat-square)
 
+<img align="left" src="https://github.com/romuro-pauliv/Introduction-to-Java/blob/main/static/Cay%20S.%20Horstmann%20-%20Core%20Java%20-%20Fundamentals,%20Volume%20I-Prentice%20Hall%20PTR%20(2007).png?raw=true" alt="drawing" width="300"/>
+
+This repository is intended to provide a path to learning the Assembly. The motivation is to provide a solid idea of the language so that the reader knows which path to take in a career as a Assembly Developer.
+
+The entire repository is **based on the book**: [Guide to Assembly Language Programming in Linux - Sivarama P. Dandamudi - (2005)](https://www.amazon.com.br/Guide-Assembly-Language-Programming-Linux/dp/0387258973)
+
+The repository has an identical structure to the book. The code is included and linked for easy access and execution. Some paragraphs in the book may be without direct quotes. I would be grateful if you would open a pull request to correct inaccuracies and contribute to the repository. 
+
 The repository is targeted for software professionals who would like to move to Linux and get a comprehensive introduction to the IA-32 assembly language. It provides detailed, step-by-step instructions to install Linux as the second operating system.
+
+<br clear="left">
 
 No previous knowledge of Linux is required. The reader is introduced to Linux and its commands. Four chapters are dedicated to Linux and NASM assembler (installation and usage). The assembly language is presented from the professional viewpoint. Since most professionals are full-time employees, the repository takes their time constraints into consideration in presenting the material.
 
