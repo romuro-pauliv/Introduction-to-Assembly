@@ -12,7 +12,7 @@ No previous knowledge of Linux is required. The reader is introduced to Linux an
     - [Advantages of High-Level Languages](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20I%20-%20Overview/a4%20-%20Advantages%20of%20High-Level%20Languages.md)
     - [Why Program in Assembly Languages](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20I%20-%20Overview/a5%20-%20Why%20Program%20in%20Assembly%20Language%3F.md)
     - [Typical Applications](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20I%20-%20Overview/a6%20-%20Typical%20Applications.md)
-    - Summary
+    - [Summary](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20I%20-%20Overview/a7%20-%20Summary.md)
 
 ### Part II - Computer Organization
 

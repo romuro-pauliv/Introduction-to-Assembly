@@ -19,5 +19,5 @@ In **time-critical applications**, tasks have to be completed within a specified
 
 **Space-efficiency**: AS mentioned before, for most systems, compactness of application code is not a major concern. However, in protable and handheld devices, code compactness is an important factor. Space-efficiency is also important in spacecraft control systems. 
 
-| < [Why Program in Assembly Language?](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20I%20-%20Overview/a5%20-%20Why%20Program%20in%20Assembly%20Language%3F.md) | [Summary]() > |
+| < [Why Program in Assembly Language?](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20I%20-%20Overview/a5%20-%20Why%20Program%20in%20Assembly%20Language%3F.md) | [Summary](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20I%20-%20Overview/a7%20-%20Summary.md) > |
 | -|-|
