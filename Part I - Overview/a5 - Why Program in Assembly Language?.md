@@ -30,5 +30,5 @@ That is, assembly language programs contain only the code that is necessary to p
 
 The other main reason for writing assembly language programs is to have **direct control over system hardware**. High-level languages, on purpose, provide a restricted (abstract) view of the underlying hardware. Because of this, it is almost impossible to perform certain tasks that require access to the system hardware. For example, writing a device driver for a new scanner on the market almost certainly requires programming in assembly language. Since assembly language does not impose any restrictions, you can have direct control over the system hardware. If you are developing system software, you cannot avoid writing assembly language programs.
 
-| < [Advantages of High-Level Languages](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20I%20-%20Overview/a4%20-%20Advantages%20of%20High-Level%20Languages.md) | [None]() > |
+| < [Advantages of High-Level Languages](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20I%20-%20Overview/a4%20-%20Advantages%20of%20High-Level%20Languages.md) | [Typical Applications]() > |
 | -|-|
