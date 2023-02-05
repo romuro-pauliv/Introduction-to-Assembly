@@ -6,13 +6,10 @@ Even Though the three gates shown in system (a) are sufficient to implement any 
 
 Logic gates are in turn built using transitors. One transistor is enough to implement a `NOT` gate. But we need three transistors to implement the `AND` and `OR` gates. It is interesting to note that, contrary to our intuition, implementing the `NAND` and `NOR` gates requires only two transistors. In this sense, transistors are the basic electronic components of digital hardware circuits. For example, the Pentium processor introduced in 1993 consists of about 3 million transistors. It is now possible to design chips with more that 100 million transistors.
 
-#### Basic logic gates
+#### Basic Logic Gates
 
-<img align="left" src="https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/static/AND%20gate.png?raw=true" alt="AND Gate" width="150"/>
-
-| A | B | F |
-|---|---|---|
-| 0 | 0 | 0 |
-| 0 | 1 | 0 |
-| 1 | 0 | 0 |
-| 1 | 1 | 1 |
+| Name | Logic Gate | Truth Table |
+|------| -----------|-------------|
+| `AND` | ![AND Gate](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/static/AND%20gate.png?raw=true) | <table> <thead>  <tr> <th>A</th> <th>B</th> <th>F</th> <tbody> <tr> <td>0</td> <td>0</td> <td>0</td> </tr> <tr> <td>0</td> <td>1</td> <td>0</td> </tr> <tr> <td>1</td> <td>0</td> <td>0</td> </tr> <tr> <td>1</td> <td>1</td> <td>1</td> </tr> </tbody> </tr> </thead> </table> |
+| `OR` | ![OR Gate](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/static/OR%20gate.png?raw=true) |<table> <thead>  <tr> <th>A</th> <th>B</th> <th>F</th> <tbody> <tr> <td>0</td> <td>0</td> <td>0</td> </tr> <tr> <td>0</td> <td>1</td> <td>1</td> </tr> <tr> <td>1</td> <td>0</td> <td>1</td> </tr> <tr> <td>1</td> <td>1</td> <td>1</td> </tr> </tbody> </tr> </thead> </table>|
+| `NOT` | ![NOT Gate](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/static/NOT%20gate.png?raw=true) | <table> <thead>  <tr> <th>A</th> <th>F</th> <tbody> <tr> <td>0</td> <td>1</td> </tr> <tr> <td>1</td> <td>0</td></tr></tbody> </tr> </thead> </table>|
