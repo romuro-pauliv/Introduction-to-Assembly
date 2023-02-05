@@ -30,7 +30,7 @@ No previous knowledge of Linux is required. The reader is introduced to Linux an
 
 - [Digital Logic Circuits](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a1%20-%20Digital%20Logic%20Circuits.md)
     - [Introduction](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a2%20-%20Introduction.md)
-    - Simple Logic Gates
+    - [Simple Logic Gates](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a3%20-%20Simple%20Logic%20Gates.md)
     - Logic Functions
     - Deriving Logical Expressions
     - Simplifying Logical Expressions
