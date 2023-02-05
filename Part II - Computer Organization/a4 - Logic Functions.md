@@ -41,5 +41,6 @@ In large circuits, drawing inverters can be avoided by following what is known a
 <br clear="left">
 <br>
 <br>
+
 | < [Simple Logic Gates](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a3%20-%20Simple%20Logic%20Gates.md) | [Deriving Logical Expressions]() > |
 | -|-|
