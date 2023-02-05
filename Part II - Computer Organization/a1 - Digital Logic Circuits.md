@@ -11,5 +11,5 @@ The second part introduces combinational circuits, which provide a higher level 
 ### III - Sequential Circuits
 In the last part, we review sequential circuits. In sequential circuits, the output depends both on the current inputs as well as the past history. This feature brings the notion of time into digital logic circuits. We introduce **system clock** to provide this timing information. We discuss two types of circuits: `latches` and `flip-flops`. These devices can be used to store a single bit of data. Thus, they provide the basic capability to design memories. These devices can be used to build larger memories, a topic covered in detail in the next chapter.
 
-| < [Part I](ttps://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20I%20-%20Overview/a7%20-%20Summary.md) | [Introduction](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a2%20-%20Introduction.md) > |
+| < [Part I](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20I%20-%20Overview/a7%20-%20Summary.md) | [Introduction](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a2%20-%20Introduction.md) > |
 | -|-|
