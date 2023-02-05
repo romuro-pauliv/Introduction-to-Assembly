@@ -40,5 +40,5 @@ A small set of independent logic gates (such as AND, NOT, NAND, etc.) are packag
 | `LSI`    | Large-Scale Integration | 100 to 10,000 |
 | `VLSI`   | Very Large Scale Integration | more than 10,000 |
  
-| < [Introduction](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a2%20-%20Introduction.md) | [Logic Functions]() > |
+| < [Introduction](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a2%20-%20Introduction.md) | [Logic Functions](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a4%20-%20Logic%20Functions.md) > |
 | -|-|

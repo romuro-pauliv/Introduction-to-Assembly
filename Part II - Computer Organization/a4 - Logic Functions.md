@@ -31,3 +31,15 @@ A logic circuit designer may use all the three forms during the design of a logi
 - In the final step, we implement the simplified logical expression. To express the implementation, we use the graphical notation.
 
 The following sections give more details on these steps.
+
+<img align="left" src="https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/static/Logic%20circuit%20for%20the%203-input%20majority%20function%20using%20the%20bubble%20notation.png?raw=true" width=400 alt="Logical circuit to implement the 3-input majority function"/>
+
+#### Bubble Notation
+
+In large circuits, drawing inverters can be avoided by following what is known as the `bubble` notation. The use of bubble notation simplifies the circuit diagrams.
+
+<br>
+<br>
+
+| < [Simple Logic Gates](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a3%20-%20Simple%20Logic%20Gates.md) | [Deriving Logical Expressions]() > |
+| -|-|
