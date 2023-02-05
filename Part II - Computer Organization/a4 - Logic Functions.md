@@ -38,8 +38,7 @@ The following sections give more details on these steps.
 
 In large circuits, drawing inverters can be avoided by following what is known as the `bubble` notation. The use of bubble notation simplifies the circuit diagrams.
 
-<br>
-<br>
+<br clear="left">
 
 | < [Simple Logic Gates](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a3%20-%20Simple%20Logic%20Gates.md) | [Deriving Logical Expressions]() > |
 | -|-|
