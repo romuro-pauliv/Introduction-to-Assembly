@@ -1,6 +1,6 @@
 ## Simplifying Logical Expressions
 
-The sum-of-products and product-of-sums logical expressions can be used to come up with a crudc implementation that uses only the `AND`, `OR`, and `NOT` gates. The implementation process is straightforward. We illustrate the process for sum-of-products expressions. In [Figure 2.3]() shows the brute force implementation of the sum-of-products expression we derived for the 3-input majority function. If we simplify the logical expression, we can get a more efficient implementation (See [Figure 2.5]()).
+The sum-of-products and product-of-sums logical expressions can be used to come up with a crudc implementation that uses only the `AND`, `OR`, and `NOT` gates. The implementation process is straightforward. We illustrate the process for sum-of-products expressions. In [Figure 2.3](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a4%20-%20Logic%20Functions.md) shows the brute force implementation of the sum-of-products expression we derived for the 3-input majority function. If we simplify the logical expression, we can get a more efficient implementation (See [Figure 2.5]()).
 
 Let us now focus on how we can simplify the logical expressions obtained from truth tables. Our focus is on sum-of-products expressions. There are three basic techniques:
 
@@ -16,19 +16,19 @@ In this section, we discuss the first two methods (for details on the last metho
 
 In this method, we use the Boolean algebra to manipulate logical expressions. We need Boolean identities to facilitate this manipulation. These are discussed next. Following this discussion, we show how the identities developed can be used to simplify logical expressions. 
 
-[Table 2.2]() presents some basic Boolean laws. For most laws, there are two versions: an `and` version and an `or` version. If there is only one version, we list it under the `and` version. We can transform a law form the `and` version to the `or` version by replacing each $1$ with a $0$, $0$ with a $1$, $+$ with a $\cdot$, and $\cdot$ with a $+$. This relationship is called `duality`.
+Table 2.2 presents some basic Boolean laws. For most laws, there are two versions: an `and` version and an `or` version. If there is only one version, we list it under the `and` version. We can transform a law form the `and` version to the `or` version by replacing each $1$ with a $0$, $0$ with a $1$, $+$ with a $\cdot$, and $\cdot$ with a $+$. This relationship is called `duality`.
 
 We can use the Boolean laws to simplify the logical expressions. We illustrate this method by looking at the sum-of-produts expression for the majority function. A straightforward simplification leads us to the following expression:
 
-$$ Majority function = A'BC + AB'C + ABC' + ABC$$
+$$ Majority function = \bar{A}BC + A\bar{B}C + AB\bar{C} + ABC$$
 
-Thus, the expression: $ABC' + ABC$ can be:
+Thus, the expression: $AB\bar{C} + ABC$ can be:
 
-$$ABC' + ABC = AB$$
+$$AB\bar{C} + ABC = AB$$
 
 Thus, the Majority Function is:
 
-$$Majority function = A'BC + AB'C + AB$$
+$$Majority function = \bar{A}BC + A\bar{B}C + AB$$
 
 ---
 
@@ -47,6 +47,7 @@ $$Majority function = A'BC + AB'C + AB$$
 | Associative | $x \cdot (y \cdot z) = (x \cdot y) \cdot z$ | $x + (y + z) = (x + y) + z$ |
 | de Morgan | $\overline{x \cdot y} = \bar{x} + \bar{y}$ | $\overline{x + y} = \bar{x} \cdot \bar{y}$ |
 
+> Table 2.2 - Boolean Laws
 ---
 
-Do you know if this is the final simplified form? This is the hard part in applying algebraic manipulation (in addition to the inherent problem of which rule should be applied). This method difinitely requires good intuition, which often implies that one needs experience to know if the final form has been derived. In our example, the expression can be further simplified. 
+Do you know if this is the final simplified form? This is the hard part in applying algebraic manipulation (in addition to the inherent problem of which rule should be applied). This method difinitely requires good intuition, which often implies that one needs experience to know if the final form has been derived. In our example, the expression can be further simplified.
