@@ -18,5 +18,5 @@ This is the dual form of the sum-of-products form. We assentially complement wha
 
 This logical expression and the sum-of-products expressions derived before represent the same truth table. Thus, despite their appearence, these two logical expressions are logically equivalent. We can prove this logical equivalence by using algebric manipulation method decribed in the next section.
 
-| < [Logic Functions](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a4%20-%20Logic%20Functions.md) | [Simplifying Logical Expressions]() > |
+| < [Logic Functions](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a4%20-%20Logic%20Functions.md) | [Simplifying Logical Expressions](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a6%20-%20Simplifying%20Logical%20Expressions.md#boolean-laws) > |
 | -|-|

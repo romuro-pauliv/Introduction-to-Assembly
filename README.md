@@ -33,7 +33,7 @@ No previous knowledge of Linux is required. The reader is introduced to Linux an
     - [Simple Logic Gates](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a3%20-%20Simple%20Logic%20Gates.md)
     - [Logic Functions](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a4%20-%20Logic%20Functions.md)
     - [Deriving Logical Expressions](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a5%20-%20Deriving%20Logical%20Expressions.md)
-    - Simplifying Logical Expressions
+    - [Simplifying Logical Expressions](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a6%20-%20Simplifying%20Logical%20Expressions.md#boolean-laws)
     - Combinational Circuits
     - Adders
     - Programmable Logic Devices

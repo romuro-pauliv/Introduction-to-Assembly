@@ -16,13 +16,13 @@ In this section, we discuss the first two methods (for details on the last metho
 
 In this method, we use the Boolean algebra to manipulate logical expressions. We need Boolean identities to facilitate this manipulation. These are discussed next. Following this discussion, we show how the identities developed can be used to simplify logical expressions. 
 
-This [Table]() presents some basic Boolean laws. For most laws, there are two versions: an `and` version and an `or` version. If there is only one version, we list it under the `and` version. We can transform a law form the `and` version to the `or` version by replacing each 1 with a 0, 0 with a 1, + with a <span>&#183;</span>, and <span>&#183;</span> with a +. This relationship is called `duality`.
+This [Table](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a6%20-%20Simplifying%20Logical%20Expressions.md#boolean-laws) presents some basic Boolean laws. For most laws, there are two versions: an `and` version and an `or` version. If there is only one version, we list it under the `and` version. We can transform a law form the `and` version to the `or` version by replacing each 1 with a 0, 0 with a 1, + with a <span>&#183;</span>, and <span>&#183;</span> with a +. This relationship is called `duality`.
 
 We can use the Boolean laws to simplify the logical expressions. We illustrate this method by looking at the sum-of-produts expression for the majority function. A straightforward simplification leads us to the following expression:
 
 $$ Majority function = A'BC + AB'C + ABC' + ABC$$
 
-Thus, the expression $ ABC' + ABC $ can be:
+Thus, the expression: $$ ABC' + ABC $$ can be:
 
 $$ ABC' + ABC = AB$$
 
@@ -36,16 +36,16 @@ $$ Majority function = A'BC + AB'C + AB $$
 
 | Name | `and` version | `or` version |
 |------|---------------|--------------|
-| Identity      | $ x \cdot 1 = x $        | $ x + 0 = x $ |
-| Complement    | $ x \cdot  \bar{x} = 0 $ | $ x + \bar{x} = 1 $ |
-| Commutative   | $ x \cdot y = y \cdot x $| $ x + y = y + x $ |
-| Distribution  | $ x \cdot (y + z) = (x \cdot y) + (x \cdot z) $   | $ x + (y \cdot z) = (x + y) \cdot (x + z) $ |
-| Idempotent | $ x \cdot x = x $ |$ x + x = x $ |
-| Null | $ x \cdot 0 = 0 $ | $ x + 1 = 1 $ |
-| Involution  | $ \bar{\bar{x}} = x $ | $ - $ |
-| Absorption  | $ x \cdot (x + y) = x $ | $ x + (x \cdot y) = x $ |
-| Associative | $ x \cdot (y \cdot z) = (x \cdot y) \cdot z $ | $ x + (y + z) = (x + y) + z $ |
-| de Morgan | $ \overline{x \cdot y} = \bar{x} + \bar{y} $ | $ \overline{x + y} = \bar{x} \cdot \bar{y} $ |
+| Identity      | $$ x \cdot 1 = x $$        | $$ x + 0 = x $$ |
+| Complement    | $$ x \cdot  \bar{x} = 0 $$ | $$ x + \bar{x} = 1 $$ |
+| Commutative   | $$ x \cdot y = y \cdot x $$| $$ x + y = y + x $$ |
+| Distribution  | $$ x \cdot (y + z) = (x \cdot y) + (x \cdot z) $$   | $$ x + (y \cdot z) = (x + y) \cdot (x + z) $$ |
+| Idempotent | $$ x \cdot x = x $$ | $$ x + x = x $$ |
+| Null | $$ x \cdot 0 = 0 $$ | $$ x + 1 = 1 $$ |
+| Involution  | $$ \bar{\bar{x}} = x $$ | $$ - $$ |
+| Absorption  | $$ x \cdot (x + y) = x $$ | $$ x + (x \cdot y) = x $$ |
+| Associative | $$ x \cdot (y \cdot z) = (x \cdot y) \cdot z $$ | $$ x + (y + z) = (x + y) + z $$ |
+| de Morgan | $$ \overline{x \cdot y} = \bar{x} + \bar{y} $$ | $$ \overline{x + y} = \bar{x} \cdot \bar{y} $$ |
 
 ---
 
