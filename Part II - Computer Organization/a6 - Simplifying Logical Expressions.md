@@ -71,6 +71,7 @@ We can see the benefits of implementing the simplified logical expressions by co
 This a graphical method and is suitable for simplifying logical expressions with a small number of Boolean variables (typically six of less). It provides a straightforward method to derive minimal sum-of-products expressions. This method is preferred to the algebraic method as it takes the guesswork out of the simplification process. For example, in the previous majority function example, it was not straughtforward to guess that we have to duplicate the term $ABC$ twice in order to get the final logical expression.
 
 <br clear="left">
+<br>
 
 > Figure 2.6 - Maps used for simplifying 2-, 3-, and 4-variable logical expressions using the Karnaugh map method
 
@@ -81,4 +82,8 @@ The Karnaugh map method uses maps to represent the logical function output. Figu
 The basic idea behind this method is to label cell such that the neighboring cells differ in only one input bit position. This is the reason why the cells are labeled 00, 01, 11, 10 (notice the chance in the order of the last two labels from the normal binary number order). What we are doing is labeling with a Hamming distance of $1$. Hamming distance is the number of bit position in which two binary numbers differ. This labeling is also called `gray code`. Why are we so interested in this gray code labeling? Simply because we can then eliminate a variable as the following holds:
 
 $$ AB\bar{C}D + ABCD = ABD$$
+
+> Figure 2.7 - Three-variable logical expression simplification using the Karnaugh map method: (a) majority function; (b) even-parity function.
+
+<img align="left" src="https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/static/Three-variable%20logical%20expression%20simplification%20using%20the%20Karnaugh%20map%20method.png?raw=true" alt="An Implementation of the simplified 3-input majority function"/>
 
