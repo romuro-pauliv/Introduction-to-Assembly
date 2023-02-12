@@ -1,6 +1,6 @@
 ## Simplifying Logical Expressions
 
-The sum-of-products and product-of-sums logical expressions can be used to come up with a crudc implementation that uses only the `AND`, `OR`, and `NOT` gates. The implementation process is straightforward. We illustrate the process for sum-of-products expressions. This [first figure of this document](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a4%20-%20Logic%20Functions.md#logic-functions) shows the brute force implementation of the sum-of-products expression we derived for the 3-input majority function. If we simplify the logical expression, we can get a more efficient implementation (See this [Figure]()).
+The sum-of-products and product-of-sums logical expressions can be used to come up with a crudc implementation that uses only the `AND`, `OR`, and `NOT` gates. The implementation process is straightforward. We illustrate the process for sum-of-products expressions. In [Figure 2.3]() shows the brute force implementation of the sum-of-products expression we derived for the 3-input majority function. If we simplify the logical expression, we can get a more efficient implementation (See [Figure 2.5]()).
 
 Let us now focus on how we can simplify the logical expressions obtained from truth tables. Our focus is on sum-of-products expressions. There are three basic techniques:
 
@@ -16,19 +16,19 @@ In this section, we discuss the first two methods (for details on the last metho
 
 In this method, we use the Boolean algebra to manipulate logical expressions. We need Boolean identities to facilitate this manipulation. These are discussed next. Following this discussion, we show how the identities developed can be used to simplify logical expressions. 
 
-This [Table](https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/a6%20-%20Simplifying%20Logical%20Expressions.md#boolean-laws) presents some basic Boolean laws. For most laws, there are two versions: an `and` version and an `or` version. If there is only one version, we list it under the `and` version. We can transform a law form the `and` version to the `or` version by replacing each 1 with a 0, 0 with a 1, + with a <span>&#183;</span>, and <span>&#183;</span> with a +. This relationship is called `duality`.
+[Table 2.2]() presents some basic Boolean laws. For most laws, there are two versions: an `and` version and an `or` version. If there is only one version, we list it under the `and` version. We can transform a law form the `and` version to the `or` version by replacing each $1$ with a $0$, $0$ with a $1$, $+$ with a $\cdot$, and $\cdot$ with a $+$. This relationship is called `duality`.
 
 We can use the Boolean laws to simplify the logical expressions. We illustrate this method by looking at the sum-of-produts expression for the majority function. A straightforward simplification leads us to the following expression:
 
 $$ Majority function = A'BC + AB'C + ABC' + ABC$$
 
-Thus, the expression: $$ ABC' + ABC $$ can be:
+Thus, the expression: $ABC' + ABC$ can be:
 
-$$ ABC' + ABC = AB$$
+$$ABC' + ABC = AB$$
 
 Thus, the Majority Function is:
 
-$$ Majority function = A'BC + AB'C + AB $$
+$$Majority function = A'BC + AB'C + AB$$
 
 ---
 

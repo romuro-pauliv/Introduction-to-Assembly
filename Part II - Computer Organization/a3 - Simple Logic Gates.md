@@ -6,6 +6,7 @@ Even Though the three gates shown in [system (a)](https://github.com/romuro-paul
 
 Logic gates are in turn built using transitors. One transistor is enough to implement a `NOT` gate. But we need three transistors to implement the `AND` and `OR` gates. It is interesting to note that, contrary to our intuition, implementing the `NAND` and `NOR` gates requires only two transistors. In this sense, transistors are the basic electronic components of digital hardware circuits. For example, the Pentium processor introduced in 1993 consists of about 3 million transistors. It is now possible to design chips with more that 100 million transistors.
 
+> Figure 2.2 Simple logic gates: Logic symbols and truth tables
 #### Basic Logic Gates (A)
 
 | Name | Logic Gate | Truth Table |
