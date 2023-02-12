@@ -64,5 +64,21 @@ We can see the benefits of implementing the simplified logical expressions by co
 
 ### Karnaugh Map Method
 
+> Figure 2.5 - An implementation of the simplified 3-input majority function
+
+<img align="left" src="https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/static/An%20Implementation%20of%20the%20simplified%203-input%20majority%20function.png?raw=true" alt="An Implementation of the simplified 3-input majority function"/>
+
 This a graphical method and is suitable for simplifying logical expressions with a small number of Boolean variables (typically six of less). It provides a straightforward method to derive minimal sum-of-products expressions. This method is preferred to the algebraic method as it takes the guesswork out of the simplification process. For example, in the previous majority function example, it was not straughtforward to guess that we have to duplicate the term $ABC$ twice in order to get the final logical expression.
+
+<br clear="left">
+
+> Figure 2.6 - Maps used for simplifying 2-, 3-, and 4-variable logical expressions using the Karnaugh map method
+
+<img src="https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/static/Maps%20used%20for%20simplifying%202-,%203-,%20and%204-%20variable%20logical%20expressions%20using%20the%20Karnaugh%20map%20method.png?raw=true" alt="Maps used for simplifying 2-, 3-, and 4- variable logical expressions using the Karnaugh map method"/>
+
+The Karnaugh map method uses maps to represent the logical function output. Figure 2.6 shows the maps used for 2-, 3-, and 4-variable logical expressions. Each cell in these maps represents a particular input combination. Each cell is filled with the output value of the function corresponding to the input combination represented by the cell. For example, the bottom left-hand cell represents the input combination $A=1$ and $B=0$ for the two-variable map (Figure 2.6a), $A=1$, $B-0$, and $C=0$ for the three-variable map (Figure 2.6b), and $A=1$, $B=0$, $C=0$, and $D=0$ for the four-variable map (Figure 2.6c).
+
+The basic idea behind this method is to label cell such that the neighboring cells differ in only one input bit position. This is the reason why the cells are labeled 00, 01, 11, 10 (notice the chance in the order of the last two labels from the normal binary number order). What we are doing is labeling with a Hamming distance of $1$. Hamming distance is the number of bit position in which two binary numbers differ. This labeling is also called `gray code`. Why are we so interested in this gray code labeling? Simply because we can then eliminate a variable as the following holds:
+
+$$ AB\bar{C}D + ABCD = ABD$$
 
