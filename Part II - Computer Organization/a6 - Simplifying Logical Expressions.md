@@ -36,7 +36,7 @@ $$ Majority function = A'BC + AB'C + AB $$
 
 | Name | `and` version | `or` version |
 |------|---------------|--------------|
-| Identity      | $$ x \cdot 1 = x $$        | $$ x + 0 = x $$ |
+| Identity      | $x \cdot 1 = x$        | $x + 0 = x$ |
 | Complement    | $$ x \cdot  \bar{x} = 0 $$ | $$ x + \bar{x} = 1 $$ |
 | Commutative   | $$ x \cdot y = y \cdot x $$| $$ x + y = y + x $$ |
 | Distribution  | $$ x \cdot (y + z) = (x \cdot y) + (x \cdot z) $$   | $$ x + (y \cdot z) = (x + y) \cdot (x + z) $$ |
