@@ -14,7 +14,7 @@ The advantage of the truth table method is that it is precise. This is important
 
 We can also use logical expressions to specify a logical function. Logical expressions use the dot, $+$, and overbar to represent the `AND`, `OR`, and `NOT` operations, respectively. For example, the output of the `AND` gate in figure below is written as $F = A \cdot B$. Assuming that single letters are used for logical variables, we often omit the dot and write the previous `AND` function as $F = A B$. Similarly, the `OR` function is written as $F = A + B$. The output of the `NOT` gate is expressed as $F = \bar{A}$. Some authors use a prime to represent the `NOT` operation as in $F = A'$ mainly because of problems with typesetting the overbar.
 
-> Fig 2.3 - Logical circuit to implement the 3-input majority function
+> Figure 2.3 - Logical circuit to implement the 3-input majority function
 
 <img align="left" src="https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/static/Logical%20circuit%20to%20implement%20the%203-input%20majority%20function.png?raw=true" width=400 alt="Logical circuit to implement the 3-input majority function"/>
 
@@ -36,7 +36,7 @@ A logic circuit designer may use all the three forms during the design of a logi
 
 The following sections give more details on these steps.
 
-> Fig. 2.4 - Logic circuit for the 3-input majority function using the bubble notation
+> Figure 2.4 - Logic circuit for the 3-input majority function using the bubble notation
 
 <img align="left" src="https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20II%20-%20Computer%20Organization/static/Logic%20circuit%20for%20the%203-input%20majority%20function%20using%20the%20bubble%20notation.png?raw=true" width=400 alt="Logical circuit to implement the 3-input majority function"/>
 

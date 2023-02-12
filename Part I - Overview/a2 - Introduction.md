@@ -2,7 +2,7 @@
 
 A user's view of a computer system depends on the degree of abstraction provided by the underlying software. Figure 1.1 shows a hierarchy of levels at which one can interact with a computer system. Moving to the top of the hierarchy shields the user from the lower-level details. At the highest level, the user interaction is limited to the interface provided by application software such as spreadsheet, word processor, and so on. The user is expected to have only a rudimentary knowledge of how the system operates. Problem solving at this level, for example, involves composing a letter using the word processor software.
 
-> Fig. 1.1 - A user's view of a computer system
+> Figure 1.1 - A user's view of a computer system
 
 <img align="left" src="https://github.com/romuro-pauliv/Introduction-to-Assembly/blob/main/Part%20I%20-%20Overview/static/A%20user's%20view%20of%20a%20computer%20system.png?raw=true" alt="A user's view of a computer system">
 
