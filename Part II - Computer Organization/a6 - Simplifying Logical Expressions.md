@@ -37,15 +37,15 @@ $$ Majority function = A'BC + AB'C + AB $$
 | Name | `and` version | `or` version |
 |------|---------------|--------------|
 | Identity      | $x \cdot 1 = x$        | $x + 0 = x$ |
-| Complement    | $$ x \cdot  \bar{x} = 0 $$ | $$ x + \bar{x} = 1 $$ |
-| Commutative   | $$ x \cdot y = y \cdot x $$| $$ x + y = y + x $$ |
-| Distribution  | $$ x \cdot (y + z) = (x \cdot y) + (x \cdot z) $$   | $$ x + (y \cdot z) = (x + y) \cdot (x + z) $$ |
-| Idempotent | $$ x \cdot x = x $$ | $$ x + x = x $$ |
-| Null | $$ x \cdot 0 = 0 $$ | $$ x + 1 = 1 $$ |
-| Involution  | $$ \bar{\bar{x}} = x $$ | $$ - $$ |
-| Absorption  | $$ x \cdot (x + y) = x $$ | $$ x + (x \cdot y) = x $$ |
-| Associative | $$ x \cdot (y \cdot z) = (x \cdot y) \cdot z $$ | $$ x + (y + z) = (x + y) + z $$ |
-| de Morgan | $$ \overline{x \cdot y} = \bar{x} + \bar{y} $$ | $$ \overline{x + y} = \bar{x} \cdot \bar{y} $$ |
+| Complement    | $x \cdot  \bar{x} = 0$ | $x + \bar{x} = 1$ |
+| Commutative   | $x \cdot y = y \cdot x$| $x + y = y + x$ |
+| Distribution  | $x \cdot (y + z) = (x \cdot y) + (x \cdot z)$ | $x + (y \cdot z) = (x + y) \cdot (x + z)$ |
+| Idempotent | $x \cdot x = x$ | $x + x = x$ |
+| Null | $x \cdot 0 = 0$ | $x + 1 = 1$ |
+| Involution  | $\bar{\bar{x}} = x$ | $-$ |
+| Absorption  | $x \cdot (x + y) = x$ | $x + (x \cdot y) = x$ |
+| Associative | $x \cdot (y \cdot z) = (x \cdot y) \cdot z$ | $x + (y + z) = (x + y) + z$ |
+| de Morgan | $\overline{x \cdot y} = \bar{x} + \bar{y}$ | $\overline{x + y} = \bar{x} \cdot \bar{y}$ |
 
 ---
 
